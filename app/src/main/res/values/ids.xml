@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="etArtist" type="id" />
+    <item name="etSong" type="id" />
+    <item name="etRating" type="id" />
+    <item name="etComment" type="id" />
+    <item name="btnDetails" type="id" />
+    <item name="btnAdd" type="id" />
+    <item name="btnExit" type="id" />
+</resources>

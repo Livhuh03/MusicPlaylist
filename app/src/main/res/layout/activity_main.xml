@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="45dp">
+
+    <EditText android:id="@+id/etSong" android:hint="@string/song_titles"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        tools:ignore="Autofill" />
+    <EditText android:id="@+id/etArtist" android:hint="Artist Name"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+    <EditText android:id="@+id/etRating" android:hint="Rating (1-5)" android:inputType="number"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+    <EditText android:id="@+id/etComment" android:hint="Comments"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+
+    <Button android:id="@+id/btnAdd" android:text="Add to Playlist"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+    <Button android:id="@+id/btnViewDetails" android:text="View Playlist"
+        android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <Button android:id="@+id/btnExit" android:text="Exit"
+        android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>

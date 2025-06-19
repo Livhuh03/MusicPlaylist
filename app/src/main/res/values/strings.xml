@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Music Playlist</string>
+    <string name="add_to_playlist">Add to Playlist</string>
+    <string name="view_playlist">View Playlist</string>
+    <string name="exit">Exit</string>
+    <string name="comments">Comments</string>
+    <string name="rating_1_5">Rating (1-5)</string>
+    <string name="artist_name">Artist Name</string>
+    <string name="song_title">Song Title</string>
+</resources>
